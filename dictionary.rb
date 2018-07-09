@@ -11,8 +11,8 @@ class Dictionary
     end
 
     def keywords
-      key_words = @entries.keys
-      sorted_key_words = key_words.sort_by {|keyword| keyword}
+      keys = @entries.keys
+      sorted_key_words = keys.sort_by {|keyword| keyword}
     end
 
     def add(entry)
